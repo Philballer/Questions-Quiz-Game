@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Quiz - End Game</title>
+    <link rel="stylesheet" href="/Home/app.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div id="home" class="flex-center flex-column">
+        <h1 id="finalScore"></h1>
+        <form>
+            <input type="text" name="username" id="username" placeholder="Username">
+            <button type="submit" class="btn" id="save" onclick="saveHighScore(event)" disabled>Save</button>
+        </form>
+        <a href="/Game/game.html" class="btn">Play Again</a>
+        <a href="/Home/index.html" class="btn">Go Home</a>
+        </div>
+    </div>
+    
+    <script src="end.js"></script>
+</body>
+</html>
